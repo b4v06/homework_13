@@ -77,6 +77,147 @@ a {
   transform: scale(1.1, 1.1);
 }
 
+.section-1 {
+  margin: 0 80px 844px 82px;
+  display: flex;
+  align-items: center;
+}
+.section-1__social {
+  margin-top: 72px;
+  width: 24px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.section-1__social > span {
+  margin-bottom: 33px;
+  transform: rotate(90deg);
+  width: 77px;
+  height: 22px;
+}
+.section-1__content {
+  margin: 0 313px 0 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+}
+.section-1__content__row-1 {
+  height: 22px;
+  display: flex;
+  justify-content: center;
+}
+.section-1__content__row-1__rectangle {
+  position: relative;
+  top: 14px;
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+.section-1__content__row-1 > p {
+  margin: 0 0 0 32px;
+  color: #FBD784;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.section-1__content > h1 {
+  margin: 0;
+  width: 950px;
+  height: 200px;
+  color: #FFF;
+  font-family: "Playfair";
+  font-size: 88px;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+.section-1__content__row-2 {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.section-1__content__row-2 > p {
+  margin: 0;
+}
+.section-1__slider {
+  margin: 0px 32px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: end;
+}
+.section-1__slider > li {
+  height: 22px;
+}
+
+.section-2 {
+  margin: 0 229px 0 229px;
+  width: 1462px;
+  height: 2560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+}
+.section-2__paragraph {
+  display: flex;
+  align-items: center;
+  gap: 114px;
+}
+.section-2__paragraph__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 27px;
+}
+.section-2__paragraph__text__row-1 {
+  height: 22px;
+  display: flex;
+  justify-content: center;
+}
+.section-2__paragraph__text__row-1__rectangle {
+  position: relative;
+  top: 14px;
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+.section-2__paragraph__text__row-1 > p {
+  margin: 0 0 0 24px;
+  color: #FBD784;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.section-2__paragraph__text > h2 {
+  margin: 0;
+  width: 555px;
+  height: 154px;
+  font-family: "Playfair";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: normal;
+}
+.section-2__paragraph__text > p {
+  width: 632px;
+  height: 160px;
+  line-height: 32px;
+}
+.section-2__paragraph__text__row-2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #FBD784;
+}
+.section-2__paragraph-2 {
+  display: flex;
+  align-items: center;
+  gap: 264px;
+}
+
 .footer {
   margin: 200px 229px 120px 229px;
   width: 1462px;
